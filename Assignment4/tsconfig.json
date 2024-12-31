@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",               // Output ES6 JavaScript
+      "module": "CommonJS",          // Use CommonJS modules
+      "strict": true,                // Enable strict type checking
+      "esModuleInterop": true,       // Allow ES module imports
+      "outDir": "./dist",            // Output directory for compiled code
+      "rootDir": "./src"             // Root directory for TypeScript files
+    },
+    "include": ["src/**/*"],         // Include all files in src/
+    "exclude": ["node_modules", "dist"] // Exclude unnecessary files
+  }
+  
